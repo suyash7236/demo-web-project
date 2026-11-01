@@ -1,2 +1,57 @@
-# demo-web-project
-Learning Git &amp; GitHub
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLEGE TIMETABLE</title>
+</head>
+
+<body>
+    <h1>College Timetable</h1>
+    <table border="5">
+        <thead>
+            <tr>
+                <th colspan="4" align="center">B.Tech-CSE</th>
+            </tr>
+            <tr>
+                <th align="center">Day</th>
+                <th align="center">9:00AM-10:00AM</th>
+                <th align="center">10:00AM-11:00AM</th>
+                <th align="center">11:00AM-12:00AM</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td align="center">Monday</td>
+                <td align="center">HTML</td>
+                <td rowspan="2" align="center">HTML LAB</td>
+                <td align="center">Mathematics</td>
+            </tr>
+            <tr>
+                <td align="center">Tuesday</td>
+                <td align="center">CSS</td>
+                <td align="center">English</td>
+            </tr>
+            <tr>
+                <td align="center">Wednesday</td>
+                <td align="center">JavaScript</td>
+                <td align="center">Mathematics</td>
+                <td align="center">Physics</td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">Lectures Summary</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">HTML</td>
+                <td colspan="2" align="center">1 Lecture</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">CSS</td>
+                <td colspan="2" align="center">1 Lecture</td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+</body>
+
+</html>
